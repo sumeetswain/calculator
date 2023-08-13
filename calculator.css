@@ -12,6 +12,9 @@
     margin: 10px;
 
 }
+.operator{
+    font-size: 30px;
+}
 
 input {
     background-color: rgb(141, 225, 247);
@@ -19,6 +22,7 @@ input {
     border-radius: 5px;
     cursor: pointer;
     height: 60px;
+    font-size: 20px;
 }
 
 #result {
