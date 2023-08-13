@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 10px;
+
+}
+
+input {
+    background-color: rgb(141, 225, 247);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 60px;
+}
+
+#result {
+    grid-column: 1 / span 4;
+    cursor: default;
+    border-color: black;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+#add {
+    grid-row: 3/ span 2;
+    grid-column-start: 4;
+    height: 130px;
+}
+
+#enter {
+    grid-row: 5/ span 2;
+    grid-column-start: 4;
+    height: 130px;
+
+}
+
+#zero {
+    grid-column: 1 /span 2;
+}
